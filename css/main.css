@@ -43,7 +43,7 @@ body {
     right: 0;
     bottom: 0;
     margin: auto;
-    background: transparent url(../img/isotipo.png) no-repeat center center;
+    background: transparent url(../img/red.png) no-repeat center center;
     background-size: contain; }
 
 .ctx-menu {
@@ -211,12 +211,12 @@ body {
     width: 824px;
     height: 133px;
     position: absolute;
-    top: 150px;
+    top: 20px;
     left: 0;
     right: 0;
     margin: auto;
     z-index: 10;
-    background: transparent url(../img/logo-site.png) no-repeat center center;
+    background: transparent url(../img/red.png) no-repeat center center;
     background-size: contain;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -801,7 +801,6 @@ body {
     right: 0;
     width: 53%;
     height: 100%;
-    background: transparent url(../img/pinera-color.png) no-repeat right top;
     background-size: cover;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -871,11 +870,10 @@ body {
   .section .ctx-ifrma-pinera {
     width: 400px;
     height: 500px;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 30px;
     bottom: 0;
-    margin: auto;
-    left: 10%; }
+    margin: auto; }
     .section .ctx-ifrma-pinera iframe {
       width: 100%;
       height: 100%;
@@ -906,12 +904,12 @@ body {
             font-size: 15px; } }
     @media screen and (max-width: 1600px) {
       .section .ctx-ifrma-pinera {
-        left: 8%; } }
+        left: 0%; } }
     @media screen and (max-width: 1280px) {
       .section .ctx-ifrma-pinera {
         width: 300px;
         height: 400px;
-        left: 6%; } }
+        left: 0%; } }
     @media screen and (max-width: 480px) {
       .section .ctx-ifrma-pinera {
         width: 270px;
